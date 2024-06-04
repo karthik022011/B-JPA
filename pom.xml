@@ -18,7 +18,8 @@
 		<module>StoredProcedure</module>
 		<module>Pagination</module>
 		<module>TransactionManagement</module>
-	</modules>
+        <module>Auditing</module>
+    </modules>
     <properties>
 		<java.version>17</java.version>
 	</properties>

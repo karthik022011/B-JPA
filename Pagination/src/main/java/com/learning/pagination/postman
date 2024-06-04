@@ -1,0 +1,12 @@
+
+POST http://localhost:8082/api/admin/product/add
+Request:
+{
+    "productName" : "Apple",
+     "description" : "Apple is good",
+      "quantity" : "2",
+       "price" : "20",
+       "categoryId" : "1"
+}
+
+GET http://localhost:8082/api/product -> Get All Products
