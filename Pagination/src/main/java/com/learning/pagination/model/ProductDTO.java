@@ -6,14 +6,15 @@ public class ProductDTO {
     private String description;
     private Integer quantity;
     private double price;
-    private Long categoryId;
 
-    public Long getCategoryId() {
-        return categoryId;
+    private double rating;
+
+    public double getRating() {
+        return rating;
     }
 
-    public void setCategoryId(Long categoryId) {
-        this.categoryId = categoryId;
+    public void setRating(double rating) {
+        this.rating = rating;
     }
 
     public Long getProductId() {

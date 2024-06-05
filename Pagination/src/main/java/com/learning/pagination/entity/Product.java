@@ -18,6 +18,8 @@ public class Product {
 
     private Integer quantity;
     private double price;
+    private double rating;
+
 
     public Long getProductId() {
         return productId;
@@ -57,5 +59,13 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
+    public void setRating(double rating) {
+        this.rating = rating;
     }
 }
