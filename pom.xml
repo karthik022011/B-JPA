@@ -19,6 +19,7 @@
 		<module>Pagination</module>
 		<module>TransactionManagement</module>
         <module>Auditing</module>
+        <module>Entity</module>
     </modules>
     <properties>
 		<java.version>17</java.version>
