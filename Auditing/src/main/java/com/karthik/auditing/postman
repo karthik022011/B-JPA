@@ -1,0 +1,12 @@
+
+POST http://localhost:8082/api/auth/signup
+
+Request:
+{
+    "firstName" : "kk",
+    "lastName" : "kk",
+    "password" : "123",
+     "dob" : "01-06-2024",
+    "email" : "test@gmail.com",
+    "phoneNumber" : "123456"
+}
